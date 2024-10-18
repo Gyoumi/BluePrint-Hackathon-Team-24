@@ -8,7 +8,8 @@
     "add-build": "git add dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec ts-node src/index.ts",
-    "start-env": "nodemon -r dotenv/config --exec ts-node src/index.ts"
+    "start-env": "nodemon -r dotenv/config --exec ts-node src/index.ts",
+    "vercel-build": "echo hello"
   },
   "keywords": [],
   "author": "",
