@@ -1,4 +1,4 @@
-import { SERVER_PORT } from '../../config.json';
+import { SERVER_PORT } from '../config.json';
 import app from './app';
 
 app.listen(SERVER_PORT, () => {
